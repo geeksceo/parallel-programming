@@ -76,4 +76,7 @@ int main() {
 		MPI_Send(&rows, 1, MPI_INT, dest, 1, MPI_COMM_WORLD);
 		MPI_Send(&c, rows*N, MPI_DOUBLE, 0, 2, MPI_COMM_WORLD);
 	}
-}
+} 
+
+
+
